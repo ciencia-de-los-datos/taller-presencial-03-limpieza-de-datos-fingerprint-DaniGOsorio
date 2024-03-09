@@ -6,10 +6,9 @@ import pandas as pd
 
 def load_data(input_file):
     """Lea el archivo usando pandas y devuelva un DataFrame"""
-    df = pd.read_csv(input_file)
+
+    df = pd.read_csv(input_file)   
     return df
-
-
 
 def create_fingerprint(df):
     """Cree una nueva columna en el DataFrame que contenga el fingerprint de la columna 'text'"""
